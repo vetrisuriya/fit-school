@@ -1,0 +1,731 @@
+@font-face {
+    font-family: 'KGSecondChancesSketch';
+    src: url('../fonts/KGSecondChancesSketch.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KGSecondChancesSolid';
+    src: url('../fonts/KGSecondChancesSolid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    overflow-x: hidden;
+}
+.flex-equal > * {
+    flex: 1;
+}
+@media only screen and (min-width: 768px) {
+    .flex-md-equal > * {
+        flex: 1;
+    }
+}
+
+.healthcareBgColor {
+    background-color: #f5ab47;
+}
+.healthcareTxtColor {
+    color: #f5ab47;
+}
+.secondaryTxtColor {
+    color: #999999;
+}
+
+
+
+.healthcare__dot {
+    position: relative;
+}
+.healthcare__dot::before {
+    content: '';
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    margin-right: 10px;
+    background: #f5ab47;
+    border-radius: 15px;
+}
+
+.healthcare__underline {
+    position: relative;
+}
+.healthcare__underline:after {
+    content: "";
+    display: block;
+    width: 50%;
+    padding-top: 5px;
+    border-bottom: 3px solid #f5ab47;
+}
+
+
+
+
+/* home page */
+.navbar {
+    box-shadow: inset 0 -0.5rem 30px rgb(0 0 0 / 15%);
+}
+.navbar-brand img {
+    width: 280px;
+}
+section {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* section 1 */
+section.section1 .txtSolid {
+    font-family: 'KGSecondChancesSolid', Times, serif;
+    letter-spacing: 5px;
+    text-shadow: -3px 2px 0px #f5ab478c;
+}
+section.section1 .txtSketch {
+    font-family: 'KGSecondChancesSketch', Times, serif;
+    letter-spacing: 5px;
+    text-shadow: -5px 4px 0px #f5ab478c;
+}
+section.section1 .boxShadow {
+    box-shadow: 4px 4px 6px 3px #f5ab478c;
+}
+
+
+/* section 3 */
+section.section3 {
+    background: linear-gradient(0deg, #b3cef7, #e8f5f5);
+}
+section.section3 h6 {
+    color: #368e8a;
+}
+section.section3 .healthcare__dot {
+    position: relative;
+    color: #368e8a;
+}
+section.section3 .healthcare__dot::before {
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    margin-right: 10px;
+    background: #368e8a;
+    border-radius: 15px;
+}
+section.section3 .txtSolid {
+    font-family: 'KGSecondChancesSolid', Times, serif;
+    letter-spacing: 5px;
+    text-shadow: -2px 2px 0px #368e8a;
+}
+section.section3 .txtSketch {
+    font-family: 'KGSecondChancesSketch', Times, serif;
+    letter-spacing: 1px;
+    color: #368e8a;
+}
+
+
+/* section 4 */
+section.section4 h6 {
+    color: #f5ab47;
+}
+section.section4 p {
+    font-size: 14px;
+    color: #606060;
+    line-height: 22px;
+    font-weight: 600;
+}
+section.section4 .healthcare__dot {
+    position: relative;
+    font-size: 14px;
+    color: #606060;
+    line-height: 26px;
+    font-weight: 600;
+}
+section.section4 .healthcare__dot::before {
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    margin-right: 10px;
+    background: #606060;
+    border-radius: 15px;
+}
+section.section4 .txtSolid {
+    font-family: 'KGSecondChancesSolid', Times, serif;
+    letter-spacing: 5px;
+    text-shadow: -2px 2px 0px #368e8a;
+}
+section.section4 .txtSketch {
+    font-family: 'KGSecondChancesSketch', Times, serif;
+    letter-spacing: 1px;
+    color: #f5ab47;
+}
+section.section4 .healthcare__underline {
+    position: relative;
+}
+section.section4 .healthcare__underline:after {
+    content: "";
+    display: block;
+    width: 32%;
+    padding-top: 25px;
+    border-bottom: 2px solid #f5ab47;
+}
+
+
+/* section 5 */
+section.section5 {
+    background: linear-gradient(5deg, #f9c78a, #f9e2bc);
+}
+section.section5 h6 {
+    color: #a0642f;
+}
+section.section5 .healthcare__dot {
+    position: relative;
+    color: #a0642f;
+}
+section.section5 .healthcare__dot::before {
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    margin-right: 10px;
+    background: #a0642f;
+    border-radius: 15px;
+}
+section.section5 .txtSolid {
+    font-family: 'KGSecondChancesSolid', Times, serif;
+    letter-spacing: 5px;
+    text-shadow: -2px 2px 0px #a0642f;
+}
+section.section5 .txtSketch {
+    font-family: 'KGSecondChancesSketch', Times, serif;
+    letter-spacing: 1px;
+    color: #a0642f;
+}
+section.section5 .healthcare__underline {
+    position: relative;
+}
+section.section5 .healthcare__underline:after {
+    content: "";
+    display: block;
+    width: 56%;
+    padding-top: 5px;
+    border-bottom: 2px solid #a0642f;
+}
+
+
+/* section 6 */
+section.section6 {
+    background: #fef5ea;
+}
+section.section6 h6 {
+    color: #f5ab47;
+}
+section.section6 .healthcare__dot {
+    position: relative;
+    color: #a0642f;
+}
+section.section6 .healthcare__dot::before {
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    margin-right: 10px;
+    background: #a0642f;
+    border-radius: 15px;
+}
+section.section6 .txtSolid {
+    font-family: 'KGSecondChancesSolid', Times, serif;
+    letter-spacing: 5px;
+    text-shadow: -2px 2px 0px #a0642f;
+}
+section.section6 .txtSketch {
+    font-family: 'KGSecondChancesSketch', Times, serif;
+    letter-spacing: 1px;
+    color: #f5ab47;
+}
+section.section6 .healthcare__underline {
+    position: relative;
+}
+section.section6 .healthcare__underline:after {
+    content: "";
+    display: block;
+    width: 15%;
+    padding-top: 15px;
+    border-bottom: 2px solid #f5ab47;
+}
+
+
+/* section 7 */
+section.section7 {
+    background: #fef5ea;
+}
+section.section7 h6 {
+    color: #a0642f;
+    font-family: 'KGSecondChancesSketch', Times, serif;
+    text-shadow: -2px 2px 0px #a0642f5e;
+    letter-spacing: 3px;
+}
+section.section7 .healthcare__dot {
+    position: relative;
+    color: #a0642f;
+    font-size: 15px;
+    font-weight: 500;
+}
+section.section7 .healthcare__dot::before {
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    margin-right: 10px;
+    background: #a0642f;
+    border-radius: 15px;
+}
+section.section7 .txtSolid {
+    font-family: 'KGSecondChancesSolid', Times, serif;
+    letter-spacing: 5px;
+    text-shadow: -2px 2px 0px #a0642f;
+}
+section.section7 .txtSketch {
+    font-family: 'KGSecondChancesSketch', Times, serif;
+    letter-spacing: 1px;
+    color: #a0642f;
+}
+section.section7 .healthcare__underline {
+    position: relative;
+}
+section.section7 .healthcare__underline:after {
+    content: "";
+    display: block;
+    width: 56%;
+    padding-top: 5px;
+    border-bottom: 2px solid #a0642f;
+}
+
+
+/* section 8 */
+section.section8 h6 {
+    color: #f5aa47;
+}
+section.section8 .healthcare__dot {
+    position: relative;
+    color: #606060;
+    line-height: 26px;
+    font-size: 15px;
+    font-weight: 500;
+}
+section.section8 .healthcare__dot::before {
+    content: '';
+    display: inline-block;
+    height: 5px;
+    width: 5px;
+    margin-right: 10px;
+    background: #606060;
+    border-radius: 15px;
+}
+section.section8 .txtSolid {
+    font-family: 'KGSecondChancesSolid', Times, serif;
+    letter-spacing: 5px;
+    text-shadow: -2px 2px 0px #f5aa47;
+}
+section.section8 .txtSketch {
+    font-family: 'KGSecondChancesSketch', Times, serif;
+    letter-spacing: 1px;
+    color: #f5aa47;
+}
+section.section8 .healthcare__underline {
+    position: relative;
+}
+section.section8 .healthcare__underline:after {
+    content: "";
+    display: block;
+    width: 56%;
+    padding-top: 5px;
+    border-bottom: 2px solid #f5aa47;
+}
+section.section8 .button {
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    height: 35px;
+    padding: 10px 20px;
+    line-height: 12px;
+    text-align: center;
+    width: 191px;
+    text-decoration: none;
+}
+section.section8 .button1 {
+    background: linear-gradient(#f08d3a, #f7c780);
+    box-shadow: 0px 0px 4px 2px #f08d3a;
+}
+section.section8 .button2 {
+    background: #4fbffc;
+    box-shadow: 0px 0px 4px 2px #4fbffc;
+}
+
+
+
+
+
+.section1Img,
+.section3Img,
+.section4Img,
+.section5Img,
+.section6Img,
+.section7Img,
+.section8Img {
+    position: relative;
+    width: 100%;
+    min-height: 450px;
+    height: 100%;
+}
+.section1Img::before,
+.section3Img::before,
+.section4Img::before,
+.section5Img::before,
+.section6Img::before,
+.section7Img::before,
+.section8Img::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+}
+.section1Img::before {
+    background: url(../images/section1_img1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section3Img::before {
+    background: url(../images/section2_img2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section4Img::before {
+    background: url(../images/section3_img1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.section5Img::before {
+    background: url(../images/section4_img2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.section6Img::before {
+    background: url(../images/cost-effective.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.section7Img::before {
+    background: url(../images/section4_img1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section8Img::before {
+    background: url(../images/section7_img1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {  
+    .section1Img,
+    .section3Img,
+    .section4Img,
+    .section5Img,
+    .section6Img,
+    .section7Img,
+    .section8Img {
+        height: 250px;
+        width: 100%;
+        margin: 0px auto;
+        min-height: unset;
+    }
+    section.section8 .button1 {
+    }
+    section.section8 .button2 {
+    }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) and (max-width: 992px) {  
+    .section1Img,
+    .section3Img,
+    .section4Img,
+    .section5Img,
+    .section6Img,
+    .section7Img,
+    .section8Img {
+        height: 356px;
+        width: 100%;
+        margin: 0px auto;
+        min-height: unset;
+    }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+    
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+
+}
+
+
+
+/*  contact us page  */
+section.contact__us {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(5deg, #f9c78a7a, #f9e2bc75);
+}
+section.contact__us .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+section.contact__us label {
+    font-size: 12px;
+}
+section.contact__us input {
+    padding: 10px 20px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+section.contact__us .contact_underline {
+    position: relative;
+}
+section.contact__us .contact_underline:after {
+    content: "";
+    display: block;
+    width: 50%;
+    padding-top: 35px;
+    border-bottom: 1px solid #f5ab47;
+    margin: 0px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  pricing page  */
+section.pricing_page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+section.pricing_page .inner {
+    
+}
+section.pricing_page .pricing_underline {
+    position: relative;
+}
+section.pricing_page .pricing_underline:after {
+    content: "";
+    display: block;
+    width: 90%;
+    padding-top: 15px;
+    border-bottom: 2px solid #f5ab47;
+}
+section.pricing_page .txtSketch {
+    font-family: 'KGSecondChancesSketch', Times, serif;
+    letter-spacing: 1px;
+    color: #f5aa47;
+}
+section.pricing_page .pricing {
+    width: 320px;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: 60px;
+}
+section.pricing_page .pricing .pricing-header {
+    height: 190px;
+    background: #f6a447;
+    border-radius: 15px;
+    padding: 30px;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+section.pricing_page .pricing .pricing-header::before {
+    content: "";
+    height: 50%;
+    background: #f6a447;
+    border-radius: 15px;
+    width: 56%;
+    position: absolute;
+    top: 58%;
+    left: 42%;
+    z-index: -1;
+    transform: rotate(168deg);
+}
+section.pricing_page .pricing .pricing-header::after {
+    content: "";
+    height: 50%;
+    background: #f6a447;
+    border-radius: 15px;
+    width: 54%;
+    position: absolute;
+    top: 59%;
+    right: 44.2%;
+    z-index: -1;
+    transform: rotate(10deg);
+}
+section.pricing_page .pricing .pricing-header .pricing-header-title {
+    
+}
+section.pricing_page .pricing .pricing-header .pricing-header-title h3 {
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+section.pricing_page .pricing .pricing-header .pricing-header-badge {
+    
+}
+section.pricing_page .pricing .pricing-header .pricing-header-badge span {
+    font-size: 10px;
+    width: 75%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0px;
+}
+section.pricing_page .pricing .pricing-body {
+    background: #fefefe;
+    width: 90%;
+    margin: 0px auto;
+    box-shadow: 1px 1px 6px 0px darkgrey;
+    border-radius: 20px;
+    margin-top: -70px;
+    z-index: -2;
+    min-height: 570px;
+    height: auto;
+}
+section.pricing_page .pricing .pricing-body .pricing-body-top {
+    height: 170px;
+}
+section.pricing_page .pricing .pricing-body .pricing-body-body {
+    
+}
+section.pricing_page .pricing .pricing-body .pricing-body-body ul li {
+    padding: 10px 30px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #606060;
+    line-height: 26px;
+}
+section.pricing_page .pricing .pricing-body .pricing-body-body ul li span {
+    margin-left: 10px;
+}
+section.pricing_page .pricing .pricing-body .pricing-body-body ul li:nth-of-type(odd){
+    background: #ebebeb9c;
+}
+section.pricing_page .pricing .pricing-body .pricing-body-body ul li:nth-of-type(even){
+    background: #d4d4d4;
+}
+section.pricing_page .pricing .pricing-body .pricing-body-footer {
+    height: 60px;
+}
+section.pricing_page .pricing .pricing-footer {
+
+}
+section.pricing_page .pricing .pricing-footer a {
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 56%;
+    background: #f6a747;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    position: absolute;
+    top: -30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+section.pricing_page .healthcare___dot {
+    position: relative;
+}
+section.pricing_page .healthcare___dot::before {
+    content: '✔';
+    display: contents;
+    height: 10px;
+    margin-right: 10px;
+}
+
+section.pricing_page .pricing2 .pricing-header {
+    background: #f9cf99;
+}
+section.pricing_page .pricing2 .pricing-header::before {
+    background: #f9cf99;
+}
+section.pricing_page .pricing2 .pricing-header::after {
+    background: #f9cf99;
+}
+section.pricing_page .pricing2 .pricing-header .pricing-header-title h3 {
+    color: #a0642f;
+}
+section.pricing_page .pricing2 .pricing-footer a {
+    color: #a0642f;
+    background-color: #f9c76e;
+}
+
+section.pricing_page .pricing3 .pricing-header {
+    background: #4fbffc;
+}
+section.pricing_page .pricing3 .pricing-header::before {
+    background: #4fbffc;
+}
+section.pricing_page .pricing3 .pricing-header::after {
+    background: #4fbffc;
+}
+section.pricing_page .pricing3 .pricing-header .pricing-header-title h3 {
+    color: white;
+}
+section.pricing_page .pricing3 .pricing-footer a {
+    color: white;
+    background-color: #4fbffc;
+}
+@media (max-width: 930px) {
+    section.pricing_page {
+        height: 100%;
+    }
+    section.pricing_page .pricing {
+        margin: 40px auto;
+    }
+}
