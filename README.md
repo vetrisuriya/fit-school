@@ -1,3 +1,3 @@
 # fit-school
 
-[Fit School](https://fit-school.netlify.app/)
+View Preveiw: [Fit School](https://fit-school.netlify.app/)
